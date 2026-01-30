@@ -18,7 +18,7 @@
 [Argument]
 Cookie-nodeseek = switch, true, false, tag = [NodeSeek]每日签到Token, desc = 获取[NodeSeek]每日签到Token
 Task-nodeseek = switch, true, false, tag = [NodeSeek]每日签到Task, desc = 定时运行[NodeSeek]每日签到Task
-Cron-nodeseek = input, "0 0 9 * * *", tag = [NodeSeek]定时参数Cron, desc = 输入Cron表达式来定时运行[NodeSeek]每日签到Task
+Cron-nodeseek = input, "2 0 * * *", tag = [NodeSeek]定时参数Cron, desc = 输入Cron表达式来定时运行[NodeSeek]每日签到Task
 
 [Rule]
 DOMAIN, www.nodeseek.com, PROXY
